@@ -1,0 +1,90 @@
+Campus Navigation & Utility Planner
+Overview
+This project implements a complete Campus Navigation & Utility Planner using fundamental data structures and algorithms.
+It includes:
+
+Building ADT
+
+Binary Search Tree (BST)
+
+AVL Tree (Self-balancing BST)
+
+Graph (Adjacency List + Adjacency Matrix)
+
+BFS & DFS Traversals
+
+Dijkstra’s Shortest Path Algorithm
+
+Kruskal’s Minimum Spanning Tree (MST)
+
+Expression Tree for evaluating arithmetic expressions
+
+The project is written in Python and designed to match the specifications provided in the assignment PDF.
+
+Features Implemented
+1. Building ADT
+Each building stores:
+
+Building ID
+
+Name
+
+Location
+
+All connected buildings with distances
+
+2. Binary Search Tree (BST)
+Implementations include:
+
+Insert nodes
+
+Search a building by ID
+
+Inorder, Preorder, Postorder traversals
+
+Height calculation
+
+3. AVL Tree
+Automatically balances the tree
+
+Supports LL, RR, LR, RL rotations
+
+Efficient O(log n) search and insert
+
+Same traversal operations as BST
+
+4. Graph Implementation
+Both forms are supported:
+
+Adjacency List
+
+Adjacency Matrix
+
+Graph supports:
+
+Adding buildings
+
+Adding weighted edges (distances between buildings)
+
+5. Graph Traversals
+Breadth-First Search (BFS)
+
+Depth-First Search (DFS)
+
+6. Dijkstra’s Algorithm
+Finds the shortest path between any two campus buildings.
+
+7. Kruskal’s Algorithm
+Finds the Minimum Spanning Tree (MST) using Union-Find data structure.
+
+8. Expression Tree
+Evaluates postfix expressions using a binary expression tree.
+
+Project Structure
+campus_planner.py   # Main program containing all implementations
+README.md           # Documentation
+How to Run
+Requirements
+Python 3.8 or above
+
+R…
